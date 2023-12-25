@@ -1,0 +1,44 @@
+Match({'ruleId': 'UPPERCASE_SENTENCE_START', 'message': 'This sentence does not start with an uppercase letter', 'replacements': ['Or'], 'context': '...hrases for details on potential errors. or use this text too see an few of of the ...', 'offset': 168, 'errorLength': 2, 'category': 'CASING', 'ruleIssueType': 'typographical'}),
+
+Match({'ruleId': 'TOO_TO', 'message': 'Did you mean "to see"?', 'replacements': ['to see'], 'context': '...s on potential errors. or use this text too see an few of of the problems that Language...', 'offset': 185, 'errorLength': 7, 'category': 'CONFUSED_WORDS', 'ruleIssueType': 'misspelling'}),
+
+Match({'ruleId': 'EN_A_VS_AN', 'message': 'Use "a" instead of \'an\' if the following word doesn\'t start with a vowel sound, e.g. \'a sentence\', \'a university\'', 'replacements': ['a'], 'context': '...ential errors. or use this text too see an few of of the problems that LanguageToo...', 'offset': 193, 'errorLength': 2, 'category': 'MISC', 'ruleIssueType': 'misspelling'}),
+
+Match({'ruleId': 'ENGLISH_WORD_REPEAT_RULE', 'message': 'Possible typo: you repeated a word', 'replacements': ['of'], 'context': '...errors. or use this text too see an few of of the problems that LanguageTool can dete...', 'offset': 200, 'errorLength': 5, 'category': 'MISC', 'ruleIssueType': 'duplication'}),
+
+ Match({'ruleId': 'MORFOLOGIK_RULE_EN_US', 'message': 'Possible spelling mistake found.', 'replacements': ['detect'], 'context': '...f of the problems that LanguageTool can detecd. What do you thinks of grammar checkers...', 'offset': 241, 'errorLength': 6, 'category': 'TYPOS', 'ruleIssueType': 'misspelling'}),
+
+ Match({'ruleId': 'DO_VBZ', 'message': 'After the auxiliary verb \'do\', use the base form of the main verb. Did you mean "think"?', 'replacements': ['think'], 'context': '...at LanguageTool can detecd. What do you thinks of grammar checkers? Please not that th...', 'offset': 261, 'errorLength': 6, 'category': 'GRAMMAR', 'ruleIssueType': 'grammar'}),
+
+ Match({'ruleId': 'PLEASE_NOT_THAT', 'message': 'Did you mean "note"?', 'replacements': ['note'], 'context': '... you thinks of grammar checkers? Please not that they are not perfect. Style issues...', 'offset': 296, 'errorLength': 3, 'category': 'TYPOS', 'ruleIssueType': 'misspelling'}),
+
+ Match({'ruleId': 'PM_IN_THE_EVENING', 'message': 'This is redundant. Consider using "P.M."', 'replacements': ['P.M.'], 'context': "... Style issues get a blue marker: It's 5 P.M. in the afternoon. The weather was nice on Thursday, 27 Ju...", 'offset': 366, 'errorLength': 22, 'category': 'REDUNDANCY', 'ruleIssueType': 'style'}),
+ 
+ Match({'ruleId': 'DATE_WEEKDAY', 'message': 'The date 27 June 2017 is not a Thursday, but a Tuesday.', 'replacements': [], 'context': '... the afternoon. The weather was nice on Thursday, 27 June 2017', 'offset': 413, 'errorLength': 22, 'category': 'SEMANTICS', 'ruleIssueType': 'inconsistency'})]
+
+
+ LanguageTool offers offers spell and grammar checking. Just paste your text here and click the 'Check Text' button. Click the colored phrases for details on potential errors. or use this text too see an few of of the problems that LanguageTool can detecd. What do you thinks of grammar checkers? Please not that they are not perfect. Style issues get a blue marker: It's 5 P.M. in the afternoon. The weather was nice on Thursday, 27 June 2017 
+
+ summarize: content() match above question, grammer() grametical(total 23, per mistake:-6, four mistake=0), vocab(word repat, 15 repat=0), spelling(spelling mistake, two mistake=0)
+essay : same as above
+
+summariz: same
+write from dication: per word devide mark out of 90
+
+# if(type == "summarize-written-text"):
+#   cursor.execute("UPDATE user_test SET content =, vocabulary= , grammar= where test_no ="+sys.argv[1]+" and question_no="+sys.argv[2])
+#   cursor.close()
+#   conn.close()
+# elif(type == "essay"):
+#   cursor.execute("UPDATE user_test SET content =, vocabulary= , grammar= where test_no ="+sys.argv[1]+" and question_no="+sys.argv[2])
+#   cursor.close()
+#   conn.close()
+# elif(type== "summarize-spoken-text"):
+#   cursor.execute("UPDATE user_test SET content =, vocabulary= , grammar= where test_no ="+sys.argv[1]+" and question_no="+sys.argv[2])
+#   cursor.close()
+#   conn.close()
+# elif(type == "write-from-dictation"):
+#   cursor.execute("UPDATE user_test SET content =, vocabulary= , grammar= where test_no ="+sys.argv[1]+" and question_no="+sys.argv[2])
+#   cursor.close()
+#   conn.close()
+# pass

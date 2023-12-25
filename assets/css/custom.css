@@ -1,0 +1,473 @@
+.modal-header{
+    cursor:move;
+}
+.dd-item:hover{
+    background-color: transparent;
+}
+.dd-menu {         
+    max-height: 300px;
+    overflow-x: hidden;
+    width: 220px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.dd-menu p{
+    font-size: 0.8em;
+}
+div::-webkit-scrollbar {
+    width: 7px;
+    background-color: transparent;
+    border-radius: 50px;
+}
+
+div::-webkit-scrollbar-track {
+    border-radius: 10px;
+     background-color: transparent;
+
+}
+
+div::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+    background-color: #181818;
+
+}
+.dd-menu::-webkit-scrollbar-track-piece:end {
+    background: transparent;
+    margin-bottom: 15px; 
+}
+
+.dd-menu::-webkit-scrollbar-track-piece:start {
+    background: transparent;
+    margin-top: 15px;
+}
+
+
+.circle {
+    background-color: #f2f4f6;
+    border-radius: 20px;
+    border:solid #d6d9db 1px;
+    height: 37px;
+    width: 37px;
+    position: relative;
+    overflow: hidden;
+    margin-left: -18px;
+    padding-top:  10px;
+}
+
+.circle:hover {
+    background-color: #6fbeffc2;
+    font-weight: bolder;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+@media(max-width: 1125px)
+{
+  .dd-menu{
+        margin-right: 50px;
+    }
+}
+@media(max-width: 1070px)
+{
+  .dd-menu{
+        margin-right: 50px;
+    }
+}
+@media(max-width: 1010px)
+{
+  .dd-menu{
+        margin-right: 50px;
+    }
+}
+@media(max-width: 990px)
+{
+    .dd-menu{
+        margin-right: 150px;
+    }
+}
+@media(max-width: 455px)
+{
+    .dd-menu{
+        margin-right: 50px;
+    }
+}
+@media(max-width: 335px)
+{
+    .dd-menu{
+        width: 200px;
+    }
+}
+@media(max-width: 310px)
+{
+    .dd-menu{
+        width: 190px;
+    }
+}   
+
+/* button bottom  */
+@media(max-width: 1004px)
+{   
+    #transcript{
+        padding: 0px;
+        padding: 0.6em;
+    }
+    #dropbtn{
+        padding: 0px;
+        padding: 0.6em;
+    }
+}
+@media(max-width: 1218px)
+{   
+    #submitbtn{
+       margin: 0px;
+       padding: 0px;
+       padding: 0.6em;
+       padding-right: 15px;
+       padding-left: 15px;
+    }
+    #answer{
+       margin: 0px;
+       padding: 0px;
+       padding: 0.6em;
+       padding-right: 15px;
+       padding-left: 15px;
+    }
+    #reset{
+       margin: 0px;
+       padding: 0px;
+       padding: 0.6em;
+       padding-right: 15px;
+       padding-left: 15px;
+    }
+}
+ @media(max-width: 1127px)
+{   
+    #submitbtn{
+       margin: 0px;
+       padding: 0px;
+       padding: 0.6em;
+       padding-right: 10px;
+       padding-left: 10px;
+    }
+    #answer{
+       margin: 0px;
+       padding: 0px;
+       padding: 0.6em;
+       padding-right: 10px;
+       padding-left: 10px;
+    }
+    #reset{
+       margin: 0px;
+       padding: 0px;
+       padding: 0.6em;
+       padding-right: 10px;
+       padding-left: 10px;
+    }
+}
+ @media(max-width: 1095px)
+{   
+    #submitbtn{
+       margin: 0px;
+       padding: 0px;
+       padding: 0.6em;
+       padding-right: 7px;
+       padding-left: 7px;
+    }
+    #answer{
+       margin: 0px;
+       padding: 0px;
+       padding: 0.6em;
+       padding-right: 7px;
+       padding-left: 7px;
+    }
+    #reset{
+       margin: 0px;
+       padding: 0px;
+       padding: 0.6em;
+       padding-right: 7px;
+       padding-left: 7px;
+    }
+}
+@media(max-width: 1061px)
+{   
+    #submitbtn{
+       margin: 0px;
+       padding: 0px;
+       padding: 0.6em;
+       padding-right: 5px;
+       padding-left: 5px;
+    }
+    #answer{
+       margin: 0px;
+       padding: 0px;
+       padding: 0.6em;
+       padding-right: 5px;
+       padding-left: 5px;
+    }
+    #reset{
+       margin: 0px;
+       padding: 0px;
+       padding: 0.6em;
+       padding-right: 5px;
+       padding-left: 5px;
+    }
+}
+
+#pill{
+    display: none;
+}
+#main-pill{
+    display: block;
+}
+@media(max-width: 991px)
+{
+    #pill{
+            display: block;
+    }
+    #pill-btn{
+        padding: 20px;
+        background-color: white;
+        border-radius: 8px;
+    }
+    #main-pill{
+        display: none;
+    }
+}
+
+@media(max-width: 767px)
+{   
+    #submitbtn{
+       margin: 0px;
+       padding: 0px;
+       padding: 0.6em;
+       padding-right: 10px;
+       padding-left: 10px;
+    }
+    #answer{
+       margin: 0px;
+       padding: 0px;
+       padding: 0.6em;
+       padding-right: 10px;
+       padding-left: 10px;
+    }
+    #reset{
+       margin: 0px;
+       padding: 0px;
+       padding: 0.6em;
+       padding-right: 10px;
+       padding-left: 10px;
+    }
+    #buy{
+        display: none;
+    }
+    #test-svg{
+        display: none;
+    }
+}
+@media(max-width: 391px)
+{   
+    #submitbtn{
+       margin: 0px;
+       padding: 0px;
+       padding: 0.6em;
+       padding-right: 10px;
+       padding-left: 10px;
+    }
+    #answer{
+       margin: 0px;
+       padding: 0px;
+       padding: 0.6em;
+       padding-right: 10px;
+       padding-left: 10px;
+    }
+    #reset{
+       margin: 0px;
+       padding: 0px;
+       padding: 0.6em;
+       padding-right: 10px;
+       padding-left: 10px;
+    }
+}
+ @media(max-width: 360px)
+{   
+    #submitbtn{
+       margin: 0px;
+       padding: 0px;
+       padding: 0.6em;
+       padding-right: 8px;
+       padding-left: 8px;
+    }
+    #answer{
+       margin: 0px;
+       padding: 0px;
+       padding: 0.6em;
+       padding-right: 8px;
+       padding-left: 8px;
+    }
+    #reset{
+       margin: 0px;
+       padding: 0px;
+       padding: 0.6em;
+       padding-right: 8px;
+       padding-left: 8px;
+    }
+}         
+@media(max-width: 349px)
+{   
+    #submitbtn{
+       margin: 0px;
+       padding: 0px;
+       padding: 0.6em;
+       padding-right: 4px;
+       padding-left: 4px;
+    }
+    #answer{
+       margin: 0px;
+       padding: 0px;
+       padding: 0.6em;
+       padding-right: 4px;
+       padding-left: 4px;
+    }
+    #reset{
+       margin: 0px;
+       padding: 0px;
+       padding: 0.6em;
+       padding-right: 4px;
+       padding-left: 4px;
+    }
+}     
+@media(max-width: 324px)
+{   
+    #submitbtn{
+       margin: 0px;
+       padding: 0px;
+       padding: 0.6em;
+       padding-right: 2px;
+       padding-left: 2px;
+    }
+    #answer{
+       margin: 0px;
+       padding: 0px;
+       padding: 0.6em;
+       padding-right: 2px;
+       padding-left: 2px;
+    }
+    #reset{
+       margin: 0px;
+       padding: 0px;
+       padding: 0.6em;
+       padding-right: 2px;
+       padding-left: 2px;
+    }
+}   
+
+/*Add Task Modal*/
+#addTaskModal .compose-box h5 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #515365;
+  text-align: center;
+  margin-bottom: 38px; }
+
+#addTaskModal .task-title {
+  display: flex; }
+
+#addTaskModal .modal-content {
+  border: none;
+  box-shadow: 0px 0px 15px 1px rgba(113, 106, 202, 0.2); }
+#addTaskModal .modal-content .card {
+    border: 1px solid #e0e6ed;
+    margin-bottom: 26px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #fff; }
+#addTaskModal .modal-content .card-header {
+    padding: 0;
+    padding: 0;
+    border: none;
+    background: none; }
+#addTaskModal .modal-content .card-header > div {
+      padding: 13px 21px;
+      font-weight: 600;
+      font-size: 16px;
+      color: #1b55e2; }
+#addTaskModal .modal-content svg {
+    align-self: center;
+    font-size: 19px;
+    margin-right: 14px;
+    color: #1b55e2;
+    font-weight: 600; }
+#addTaskModal .modal-content input {
+    padding: 10px 16px; }
+#addTaskModal .modal-content input[type="range"] {
+      box-shadow: none;
+      padding: 0; }
+#addTaskModal .modal-content input[type="range"]::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        background: #1b55e2;
+        cursor: pointer;
+        -webkit-transition: all 0.35s ease;
+        transition: all 0.35s ease; }
+#addTaskModal .modal-content input[type="range"]:active::-webkit-slider-thumb {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+        box-shadow: none; }
+#addTaskModal .modal-content input[type="range"]:focus::-webkit-slider-thumb {
+        box-shadow: none; }
+#addTaskModal .modal-content .range-count {
+    display: inline-block;
+    margin-left: 6px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #3b3f5c; }
+#addTaskModal .modal-content .img-preview {
+    text-align: center; }
+#addTaskModal .modal-content .img-preview img {
+      width: 280px;
+      height: 280px;
+      margin: 0 auto; }
+#addTaskModal .modal-content .custom-file .custom-file-label {
+    margin-bottom: 0; }
+#addTaskModal .modal-content .input-group .input-group-append {
+    height: 40px; }
+#addTaskModal .modal-content .custom-file .custom-file-label:after {
+    height: auto;
+    display: none; }
+#addTaskModal .modal-content .input-group-append .input-group-text {
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px; }
+
+#addTaskModal .task-badge {
+  display: flex; }
+
+#addTaskModal .modal-content textarea {
+  padding: 10px 16px; }
+#addTaskModal .modal-footer {
+  justify-content: center;
+  border: none;
+  padding-top: 0; }
+#addTaskModal .modal-footer .btn[data-dismiss="modal"] {
+    background-color: #fff;
+    color: #1b55e2;
+    font-weight: 700;
+    border: 1px solid #e8e8e8;
+    padding: 10px 25px; }
+#addTaskModal .modal-footer [data-btnfn="addTask"] {
+    background-color: #1b55e2;
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid #1b55e2;
+    padding: 10px 25px; }
+#addTaskModal .modal-footer [data-btnfn="editTask"] {
+    background-color: #009688;
+    color: #fff;
+    font-weight: 600;
+    border: 1px solid #e0e6ed;
+    padding: 10px 25px; }  
+
+

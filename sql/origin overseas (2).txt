@@ -1,0 +1,146 @@
+admin side:
+
+dashboard:
+	no of student(line chart)
+	no if visitor(every month wise bar chart, first line from classes and other is out source)
+	daily sales(test purchase)
+	summary(income)
+	visitor by (show mobile and pc/laptop)
+
+slide bar:
+	dashboard
+	student
+		create student(add test allow for use)
+		manage student(table)(name,student id, active/inactive, status(on/off), join date, ending date, no of test given, overall average, delete student, manage test(on or off for student))
+	test
+		create test
+		manage test(table)(test id, test name, modify date, inctive/inactive(off), edit, delete)
+	matiral 
+		create matirial
+		manage(table) for each section's question
+	contact us
+	today's signup
+
+
+
+enroll/ purchase cource (at a home page of website)
+student design:
+	login and signup
+	dashbord
+		progressbar
+		total completed test, attempte test, allowed test
+		Recent Taken Tests
+		main chart(data of combine test)
+		4 graph(for each section) (bar graph)
+		validity of 
+	slider :
+		dashbord
+		online coching
+		test
+		matrials
+		get export advice
+		support
+		
+	test
+		simple table(test name, taken date, percentage of attempt, Attempted/Total Questions, test view, test ananysis page)
+	attemt test(resume test option auto save)
+		speaking, writing, reading, listning(sample https://ptetutorials.com/sample-questions)
+			speaking(read a loud:- peragraph which should start after 40 second)(7 question in row)
+					(Repeat sentence:- play audio, 1 sec preperation, 10 second recording)(10 question)
+					(Describe image:- 25 sec preperation, 40 second recording)(7 question)
+					(Re-tell lecture:- audio play, 10 sec preperation, 40 second recording)(4 question)(ask if possible 2 vid and 2 audio)
+					(Answer short question:- play audio,0 sec preperation, 10 second recording)(10 question)38
+			writing
+					Summarize written text(3 question):- total timer for 10 min(no timer for prepration), text-box word counter 
+					Essay(1 question):-  total timer for 20 min(no timer for prepration), text-box word counter :42
+			READING(total 41 min timer)
+					Multiple-choice, choose single answer(2 question):- 
+					Multiple-choice, choose multiple answers(2 question):-
+					Re-order paragraphs(3 question):-
+					Reading: Fill in the blanks	(5 question):-
+					Reading and writing: Fill in the blanks(6 question):-60
+
+			(10min brack optional :- )
+			
+			LISTENING
+					Summarize spoken text(3 question, 10min for each question , 10 sec prepration time):-
+					(total time: 26 min, 3 sec prepration time for each){ 
+						Multiple Choice, Choose Multiple Answers(2 question):-
+						Fill the blanks(3 question):-
+						Highlight the correct summary(2 question):-
+						Multiple choice question Single Answer(2 question):-
+						Select missing word(2 question):-
+						Highlight incorrect words(3 question):-
+					}	Write from dictation(4 question):-81
+
+	test ananysis(mark show by each section, and other sections if possible)
+	matrials
+		page in which contain link of matirial by section
+		(if any of them get open show the top header all that matirial link which has previous page)
+		(in that contect user can practice on a singel type which is not gonna asses(check))
+
+total -90 section wise
+
+read-a-loud = point-1 question , fluency -5 , promouncation 5, content -5 , 15 
+repeat-sentence - fluency - 5 , pron -5 , content -3, 13
+describe imge,re tell sme as read a loud
+answer short question -1 point right answer
+
+summarize written text- con -2(word-match) vocab -2(repeatation) gramm-2 (4 error) wc-1, 1 full stop otherwise zero,7
+
+(wc , con(uppercase,style,semantics,confusing words) , full stop) -errors
+
+
+essay = con -3 gram -2 spelling -2(mistake) vocab -2 form -2(wc)5-75 informl word(like dont,gonna n ol shrt frm)
+
+
+
+single-answer 1 point for right
+multiple -answer = 1 point for right , 1 wrong -1
+reorder para- ab bc cd 1 pair 1 point right, 3 (max point according to pair)
+fill-in-the-blnks 1blnk 1 point
+reading writing same as fill in the blnks
+
+spoken-text = con -2 , gramm-2 , vocab -2 , spelling-2 , wc -2(50-70),10
+multiple same as reading
+single same as reading
+fill-in-the-blnks-1 point
+highlight , missing word same as single
+highligh inncorrect word 1 for right -1 for wrong
+write from dictation 1 correct spell word 1 point
+
+
+
+
+
+
+
+
+
+
+
+for user profile (file:///D:/projects/uttam%20bhai/final/user_profile.html) and user profile setting (file:///D:/projects/uttam%20bhai/final/user_account_setting.html)
+
+home page (file:///D:/projects/uttam%20bhai/final/pages_faq.html)
+
+icons (file:///D:/projects/uttam%20bhai/final/fonticons.html)
+
+colors(file:///D:/projects/uttam%20bhai/final/element_color_library.html)
+
+search on page (file:///D:/projects/uttam%20bhai/final/element_search.html)
+
+progress bars (file:///D:/projects/uttam%20bhai/final/element_progress_bar.html)
+
+block page(file:///D:/projects/uttam%20bhai/final/component_blockui.html)
+
+pricing offer (file:///D:/projects/uttam%20bhai/final/component_pricing_table.html)
+
+to show getting the test(file:///D:/projects/uttam%20bhai/final/component_timeline.html)
+
+arrows help for test head(file:///D:/projects/uttam%20bhai/final/element_breadcrumbs.html)
+
+handle input in form (file:///D:/projects/uttam%20bhai/final/form_input_mask.html)
+
+add diff things in form (file:///D:/projects/uttam%20bhai/final/form_input_group_basic.html)
+
+to upload image (file:///D:/projects/uttam%20bhai/final/form_fileupload.html)
